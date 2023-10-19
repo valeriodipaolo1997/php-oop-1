@@ -6,7 +6,10 @@ Bonus 2: Creare un layout completo per stampare a schermo una lista di movies.
  -->
  <?php
 
-include './models/movie.php'
+include './models/movie.php';
+include './db.php';
+
+var_dump($movies)
 
 ?>
  
